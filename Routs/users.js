@@ -22,7 +22,7 @@ router.post("/post",(req,res)=>{
 
     console.log(req.fstname);
 
-    res.send("post done1")
+    res.send("post ")
 })
 
 module.exports = router;
